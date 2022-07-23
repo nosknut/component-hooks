@@ -1,0 +1,22 @@
+.new-comment {
+  display: grid;
+  grid-gap: 5px;
+  margin: 5px;
+}
+
+.new-comment .text-input {
+  grid-column: 1/8;
+}
+
+.new-comment button {
+  grid-column: 8/9;
+  height: 50px;
+  background-color: rgb(60, 60, 80);
+  color: var(--text-color);
+  border: 2px solid rgb(70, 70, 70);
+  border-radius: 5px;
+}
+
+.new-comment button:hover {
+  background-color: rgb(80, 80, 100);
+}
